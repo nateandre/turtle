@@ -139,3 +139,10 @@ body {
 input:focus {
     outline: none;
 }
+
+@media only screen and (max-width: 400px) {
+    #street {
+        width: 380px;
+        height: 500px;
+    } 
+}
